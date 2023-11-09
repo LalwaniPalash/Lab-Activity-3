@@ -8,12 +8,14 @@ b = None
 
 while a is None and b is None:
 	try:
-		a = input("Value of a: ")
-		b = input("Value of b: \n")
+		a = int(input("Value of a: "))
+		b = int(input("Value of b: "))
 	except ValueError:
 		input("Invalid Input!")
 
-if input("Do you want to swap the values?(y/n): \n") == "y":
+swap = input("Do you want to swap the values?(y/n): ")
+
+if swap == "y":
 	c = a
 	a = b
 	b = c
