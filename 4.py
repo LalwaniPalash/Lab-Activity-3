@@ -1,7 +1,7 @@
 import time
 import math
 
-print("\nProgram to print Fibonacci series!\n")
+print("\nProgram to perfeorm Triginometric functions on an angle!\n")
 time.sleep(2) 
 
 def calculate_trigonometric_values(angle_in_degrees):
