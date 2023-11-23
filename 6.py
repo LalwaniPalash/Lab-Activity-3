@@ -2,7 +2,7 @@ import time
 import random
 import math
 
-print("\nProgram to truncated, floored and celled value of [-0.2, -0.5, 0.2, 1.5, 2.9]!\n")
+print("\nProgram to get truncated, floored and celled value of [-0.2, -0.5, 0.2, 1.5, 2.9]!\n")
 time.sleep(2)
 
 numbers = [-2.8, -0.5, 0.2, 1.5, 2.9]
