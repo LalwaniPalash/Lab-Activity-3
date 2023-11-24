@@ -9,19 +9,16 @@ def calculate_angles(a, b, c):
     B = math.degrees(math.acos((a**2 + c**2 - b**2) / (2 * a * c)))
     C = math.degrees(math.acos((a**2 + b**2 - c**2) / (2 * a * b)))
     
-    # Round angles to the next integer
     A = round(A)
     B = round(B)
     C = round(C)
 
     return A, B, C
 
-# Example sides of a triangle
 a = 5
 b = 7
 c = 8
 
-# Calculate and print the rounded angles
 angles = calculate_angles(a, b, c)
 print(f"Angle A: {angles[0]} degrees")
 print(f"Angle B: {angles[1]} degrees")
